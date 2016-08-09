@@ -49,3 +49,16 @@ afterwards.
 5. `serverless deploy`
 6. `serverless invoke --function hello --path event.json`
 7. `serverless remove`
+
+### Clojure - Quick Start
+
+Follow these simple steps to create and deploy your clojure service using leiningen, run your function and remove the service
+afterwards.
+
+1. install the latest version of `serverless` and `leiningen`
+2. `mkdir my-first-service && cd my-first-service`
+3. `serverless create --template aws-clojure`
+4. `lein uberjar`
+5. `serverless deploy`
+6. `serverless invoke --function hello --path event.json`
+7. `serverless remove`
